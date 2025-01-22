@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  javascripttetris:
+    image: javascripttetris
+    build:
+      context: .
+      dockerfile: ./Dockerfile
